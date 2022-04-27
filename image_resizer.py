@@ -4,6 +4,7 @@ import os
 # get paths for input and output folder
 input_dir = os.getcwd() + '\input\\'
 output_dir = os.getcwd() + '\output\\'
+os.mkdir(output_dir)
 
 dirs = os.listdir(input_dir)
 
